@@ -1,0 +1,8 @@
+.carosoll {
+  height: 300px;
+  width: 50%;
+}
+
+#cardCon {
+  display: flex;
+}

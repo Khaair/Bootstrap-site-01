@@ -6,3 +6,7 @@
 #cardCon {
   display: flex;
 }
+
+.col-3 {
+  border: 2px solid red;
+}

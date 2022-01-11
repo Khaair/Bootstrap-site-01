@@ -1,3 +1,62 @@
-.hll {
-  color: aqua;
+body {
+  font-family: Helvetica, Sans-Serif;
+  color: #444444;
+
+  background-color: #fafafa;
+}
+
+/* Styles for wrapping the search box */
+
+.main {
+  width: 50%;
+  margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+  padding-left: 2.375rem;
+  height: 55px;
+  width: 350px;
+  margin-top: -43px;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+
+  line-height: 3.375rem;
+  text-align: right;
+  padding-top: -40px;
+}
+.fa-search {
+  padding-left: 10px;
+}
+.footer-list {
+  margin-top: 20px;
+}
+
+.footer-list ul a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 2px;
+}
+
+.footer-list ul a:hover {
+  color: black;
+}
+
+.footer-google-android {
+  margin-top: 55px;
+}
+
+.footer-google-android img {
+  padding: 10px;
+}
+
+.orange-box {
+  background-color: #ffa010;
+
+  margin-top: 48px;
+  height: 295px;
+  width: 80px;
 }

@@ -32,7 +32,7 @@ body {
 .has-search .form-control {
   padding-left: 2.375rem;
   height: 55px;
-  width: 350px;
+  width: 100%;
   margin-top: -43px;
 }
 
@@ -72,6 +72,6 @@ body {
   background-color: #ffa010;
 
   margin-top: 48px;
-  height: 295px;
-  width: 80px;
+  height: 100%;
+  width: 100%;
 }

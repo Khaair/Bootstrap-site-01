@@ -6,14 +6,21 @@ body {
 }
 
 /* Resopsive Design */
-@media (max-width: 920px) {
-  .nav-icon .icon-img {
-    height: 50px;
-    width: 50px;
+[class*="col-"] {
+  width: 100%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 900px) {
+  .manimg {
+    display: none;
   }
 }
 
-/* Styles for wrapping the search box */
+@media screen and (min-width: 0px) and (max-width: 900px) {
+  .girlsimg {
+    display: none;
+  }
+}
 
 .main {
   width: 50%;

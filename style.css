@@ -5,6 +5,14 @@ body {
   background-color: #fafafa;
 }
 
+/* Resopsive Design */
+@media (max-width: 920px) {
+  .nav-icon .icon-img {
+    height: 50px;
+    width: 50px;
+  }
+}
+
 /* Styles for wrapping the search box */
 
 .main {
